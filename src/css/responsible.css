@@ -1,0 +1,28 @@
+@media(max-width: 600px) {
+    .nav-links {
+        display: block;
+    }
+
+    .login-register a{
+        display: block;
+        
+    }
+
+    .central {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .central .remoto h1{
+        
+        justify-content: center;
+        text-align: justify;
+    
+    }
+
+    .remoto button {
+        align-items: center;
+        
+    }

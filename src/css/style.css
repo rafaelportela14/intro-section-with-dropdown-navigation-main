@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+body {
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+body p {
+    font-size: 18px;
+}
+
+
+.close-btm {
+    display: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* .icon-menu {
+    display: none;
+
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+
+}
+
+
+.cabecalho {
+    margin: 30px;
+    /* box-sizing: border-box; */
+}
+
+
+.backdrop {
+    position: relative;
+    right: 400px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+
+
+.nav-links .nav-link:hover{
+    color: black;
+    cursor: pointer;
+}
+.central {
+    display: flex;
+    align-items: center;
+}
+
+.central .remoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 60px;
+
+
+
+}
+
+.central .remoto h1 {
+    font-size: 60px;
+    font-weight: 800;
+    width: 128%;
+    margin-top: 40px;
+
+}
+
+.central .remoto p {
+    text-align: start;
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.remoto button {
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 130px;
+    background-color: black;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.remoto button:hover {
+    background-color: var(--white);
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.remoto .remoto-img-final {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.central .ator-remoto {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.central .ator-remoto img {
+    width: 100%;
+}
+
+.cabecalho .login-register {
+    display: flex;
+    padding-right: 30px;
+    gap: 30px;
+      
+}
+
+.nav-link-login {
+    padding-top: 10px;
+    font-size: 14px;
+      
+}
+
+.nav-link-login:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+      
+}
+
+
+.nav-link-register{
+    border: 2px solid var(--gray);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;   
+    width: 80%;
+    height: 80%;
+    
+}
+
+.nav-link-register:hover {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-btn{
+    display: none;
+}
+
